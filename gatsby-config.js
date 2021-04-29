@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-gatsby-cloud'
+    'gatsby-plugin-gatsby-cloud',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
