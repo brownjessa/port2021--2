@@ -70,8 +70,8 @@ class Main extends React.Component {
           <h2>Member Dashboard</h2>
         <section>
           <ul className ="alt">
-										<li><a href="#">Dark Theme</a></li>
-										<li><a href="#">Light Theme</a></li>
+										<li><a href="https://xd.adobe.com/view/31e9a0aa-23bf-46f0-80ba-1cdafdf45095-64ba/">Dark Theme</a></li>
+										<li><a href="https://xd.adobe.com/view/31e9a0aa-23bf-46f0-80ba-1cdafdf45095-64ba/">Light Theme</a></li>
 									</ul>
           </section>
           </header>
@@ -80,9 +80,9 @@ class Main extends React.Component {
           <h2>Hierarchy User Flows</h2>
         <section>
           <ul className="alt">
-										<li><a href="#">Super Admin</a></li>
-										<li><a href="#">Admin</a></li>
-                    <li><a href="#">Standard Users</a></li>
+										<li><a href="https://drive.google.com/file/d/1aCYT1qtywtGtIPlszj45kEUPBnLBGiD2/view?usp=sharing">Super Admin</a></li>
+										<li><a href="https://drive.google.com/file/d/1dNG13jUipryqD3i5dEmJvkQH9RwGmqvN/view?usp=sharing">Admin</a></li>
+                    <li><a href="https://drive.google.com/file/d/1Mxf---rD1xtY2dbSu7VUQ8JejYRFS0ji/view?usp=sharing">Standard Users</a></li>
 									</ul>
           </section>
           </header>
@@ -92,10 +92,11 @@ class Main extends React.Component {
           <div className="content">
         <section>
           <ul className="alt">
-										<li><a href="#">Mock</a></li>
-										<li><a href="#">Styling Guide</a></li>
-                    <li><a href="#">Styling Edit</a></li>
+										<li><a href="https://xd.adobe.com/view/6c1ac636-6876-4394-425b-fd3ca5fe00e7-1a2b/">Mock</a></li>
+										<li><a href="https://xd.adobe.com/view/595ee5d9-8d4a-484b-4929-4711c61da7d1-2f6f/">Styling Guide</a></li>
+                    <li><a href="https://xd.adobe.com/view/c0bcb6bc-a525-4242-423f-63f29fc07bc9-b68d/">Styling Edit</a></li>
 									</ul>
+                  <p>For password to view these mocks please contact me.</p>
           </section>
           </div>
           </header>
@@ -104,8 +105,8 @@ class Main extends React.Component {
           <h2>3D--VR Design</h2>
         <section>
           <ul className="alt">
-										<li><a href="#">Surrounded Lake VR Hub</a></li>
-										<li><a href="#">2D/3D Webex Conference Room</a></li>
+										<li><a href="https://hubs.mozilla.com/scenes/Hb96YHJ">Surrounded Lake VR Hub</a></li>
+                    <li><a href="https://drive.google.com/file/d/1fEbHqEP7v-Vhn7bjy0wqefB5VgmGFZ8b/view">2D/3D Webex Conference Room</a></li>
 									</ul>
                   <p>Please access via Desktop using Google Chrome</p>
           </section>
@@ -146,7 +147,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -167,7 +168,11 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
+          <p>Jessamine Brown
+            <br></br>
+            brownjessa11@gmail.com
+          </p>
           <ul className="icons">
             <li>
               <a
@@ -178,16 +183,16 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              {/* <a href="#" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <a href="https://www.linkedin.com/in/jessamine-brown-6a4789128/" className="icon fa-linkedin">
+                <span className="label">LinkedIn</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
-            </li>
-            <li> */}
+            </li> */}
+            <li>
               <a
                 href="https://github.com/brownjessa"
                 className="icon fa-github"
