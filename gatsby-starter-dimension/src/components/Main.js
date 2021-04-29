@@ -33,13 +33,12 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            An innovative and solution-focused UX/UI, Product Designer and fledgling front-end developer. 
+            My passion is for technology and designing responsive 2D products as well as 3D enviornments 
+            and products.
+            Check out my <a href="#">Resume</a>.
           </p>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
             torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
@@ -51,7 +50,7 @@ class Main extends React.Component {
             malesuada fames ac turpis egestas. In non lorem sit amet elit
             placerat maximus. Pellentesque aliquam maximus risus, vel sed
             vehicula.
-          </p>
+          </p> */}
           {close}
         </article>
 
@@ -67,19 +66,53 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <header> 
+          <h2>Member Dashboard</h2>
+        <section>
+          <ul className ="alt">
+										<li><a href="#">Dark Theme</a></li>
+										<li><a href="#">Light Theme</a></li>
+									</ul>
+          </section>
+          </header>
+
+          <header className="major"> 
+          <h2>Hierarchy User Flows</h2>
+        <section>
+          <ul className="alt">
+										<li><a href="#">Super Admin</a></li>
+										<li><a href="#">Admin</a></li>
+                    <li><a href="#">Standard Users</a></li>
+									</ul>
+          </section>
+          </header>
+
+          <header> 
+          <h2>Cyber Data Viz</h2>
+          <div className="content">
+        <section>
+          <ul className="alt">
+										<li><a href="#">Mock</a></li>
+										<li><a href="#">Styling Guide</a></li>
+                    <li><a href="#">Styling Edit</a></li>
+									</ul>
+          </section>
+          </div>
+          </header>
+
+          <header> 
+          <h2>3D--VR Design</h2>
+        <section>
+          <ul className="alt">
+										<li><a href="#">Surrounded Lake VR Hub</a></li>
+										<li><a href="#">2D/3D Webex Conference Room</a></li>
+									</ul>
+                  <p>Please access via Desktop using Google Chrome</p>
+          </section>
+          </header>
+
+
+
           </p>
           {close}
         </article>
